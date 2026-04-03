@@ -1,27 +1,65 @@
-<html>
-  <body>
-    <h1>Daniel Szasz Automation Toolkits</h1>
-    <p>Welcome to the documentation for my flutter boiler plate zero-touch mono-repo generator.</p>
-    <a href="https://linkedin.com/in/danysz" target="_blank">Connect with me on LinkedIn</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danysz | Developer & Automation Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <nav>
+        <div class="brand-container">
+            <img src="https://digital-cherry.com/wp-content/themes/dcherry/images/digital-cherry.webp" alt="Digital Cherry Logo" class="nav-logo">
+            <h1>Danysz.</h1>
+        </div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#tools">Tools</a></li>
+        </ul>
+    </nav>
 
-<section class="project-highlight">
-  <h2>Danysz Flutter Automation Toolkit</h2>
-  <p>
-    A powerful, zero-touch Python orchestrator designed to instantly generate a production-ready Flutter mono-repo. 
-    This toolkit eliminates hours of manual boilerplate by fully automating Google Cloud and Firebase provisioning, Android keystore generation, CI/CD deployment pipelines, and localization workflows.
-  </p>
-  
-  <h3>Key Features:</h3>
-  <ul>
-    <li>⚡ <strong>Zero-Touch Setup:</strong> Initializes your workspace, provisions cloud databases, configures FlutterFire, and pushes your initial Git commit in a single execution.</li>
-    <li>🔐 <strong>Security First:</strong> Automatically generates, configures, and safely hides your 2048-bit RSA production keystores.</li>
-    <li>🚀 <strong>Automated CI/CD:</strong> Injects pre-configured Bash scripts to handle semantic version bumping and automated distribution to iOS and Android testing environments.</li>
-    <li>🌍 <strong>Smart Localization:</strong> Custom Python utilities that hunt down hardcoded Dart strings, move them to translation files, and automatically fix the resulting analyzer errors.</li>
-  </ul>
+    <div class="container">
+        
+        <section id="about">
+            <h2>Hi, I'm Danysz</h2>
+            <div class="bio-text">
+                <p>I am a software engineer and automation enthusiast. I specialize in building robust applications and engineering tools that eliminate repetitive tasks, allowing teams to focus on writing great code.</p>
+                <p>With a strong focus on Flutter, cloud infrastructure (Firebase/GCP), and CI/CD pipelines, I build solutions that scale from the first line of code to production deployment.</p>
+            </div>
+        </section>
 
-  <a href="https://github.com/danysz/flutter-boilerplate-monorepo-generator" target="_blank">View the Source Code on GitHub</a>
-</section>
-    
-  </body>
+        <section id="tools">
+            <h2>My Tools & Projects</h2>
+            <div class="tools-grid">
+
+                <div class="tool-card">
+                    <h3>Danysz Flutter Automation Toolkit</h3>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Flutter</span>
+                        <span class="tag">Bash</span>
+                        <span class="tag">Firebase</span>
+                    </div>
+                    <p>A zero-touch Python orchestrator designed to instantly generate a production-ready Flutter mono-repo. It eliminates hours of manual boilerplate by fully automating Google Cloud and Firebase provisioning, Android keystore generation, CI/CD deployment pipelines, and l10n localization workflows.</p>
+                    
+                    <a href="https://github.com/danysz/YOUR-REPO-NAME" class="btn" target="_blank">View on GitHub</a>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Danysz. Built to automate the boring stuff.</p>
+        <p class="footer-links">
+            <a href="https://linkedin.com/in/YOUR-PROFILE" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/danysz" target="_blank">GitHub</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
